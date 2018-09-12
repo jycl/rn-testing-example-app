@@ -58,9 +58,6 @@ jobs:
       # run tests!
       - run: yarn test
 
-      # run E2E detox tests
-      - run: detox test
-
 workflows:
   version: 2
 
