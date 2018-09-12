@@ -2,8 +2,6 @@
 #
 # Check https://circleci.com/docs/2.0/language-javascript/ for more details
 #
-version: 2
-
 defaults: &defaults
   working_directory: ~/repo
 
@@ -30,6 +28,7 @@ jobs:
       - run: detox test -c ios.sim.release
 
   test-js:
+    <<: *defaults
     docker:
       # specify the version you desire here
       - image: circleci/node:8
@@ -61,3 +60,11 @@ jobs:
 
       # run E2E detox tests
       - run: detox test
+
+workflows:
+  version: 2
+
+  build:
+    jobs:
+      - test-js
+      - test-ios
