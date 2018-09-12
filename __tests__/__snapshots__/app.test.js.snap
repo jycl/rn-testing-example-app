@@ -11,6 +11,7 @@ Array [
         "justifyContent": "center",
       }
     }
+    testID="welcome"
   >
     <Text>
       Testing components using react-test-renderer
@@ -22,7 +23,9 @@ Array [
         blue
       </Text>
     </View>
-    <View>
+    <View
+      testID="button"
+    >
       <View
         accessible={true}
         isTVSelectable={true}

@@ -27,7 +27,11 @@
     "setupTestFrameworkScriptFile": "<rootDir>/setupTests.js",
     "transform": {
       "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
-    }
+    },
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.test.js?(x)",
+      "<rootDir>/src/**/*.test.js"
+    ]
   },
   "detox": {
     "configurations": {

@@ -64,8 +64,8 @@ describe("<App>", () => {
         const listItems = list.findAllByType(Text);
         expect(listItems).toHaveLength(4);
 
-        //by testId
-        const buttons = render.root.findAllByProps({testID: "button"});
-        expect(buttons).toHaveLength(1);
+        //by props
+        const component = render.root.findByProps({pair: "blue"});
+        expect(component).toBeTruthy();
     });
 });

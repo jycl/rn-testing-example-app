@@ -12,7 +12,7 @@ class Clickable extends React.Component {
 
   render() {
     return (
-      <View {...this.props}>
+      <View testID={this.props.testID} >
         <TouchableHighlight onPress={this.pressHandler}>
           <Text>{this.state.number}</Text>
         </TouchableHighlight>
