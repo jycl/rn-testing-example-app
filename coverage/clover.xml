@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1536742853834" clover="3.2.0">
+  <project timestamp="1536742853834" name="All files">
+    <metrics statements="40" coveredstatements="40" conditionals="0" coveredconditionals="0" methods="13" coveredmethods="13" elements="53" coveredelements="53" complexity="0" loc="40" ncloc="40" packages="2" files="5" classes="5">
+      <package name="TestExampleApp">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="App.js" path="/Users/joshua/Personal/Projects/TestExampleApp/App.js">
+          <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="9" count="1" type="stmt"/>
+          <line num="10" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="12" count="1" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="TestExampleApp.src.components">
+        <metrics statements="27" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
+        <file name="Clickable.js" path="/Users/joshua/Personal/Projects/TestExampleApp/src/components/Clickable.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="4" count="4" type="stmt"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="14" count="3" type="stmt"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+        </file>
+        <file name="Context.js" path="/Users/joshua/Personal/Projects/TestExampleApp/src/components/Context.js">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+        </file>
+        <file name="Testable.js" path="/Users/joshua/Personal/Projects/TestExampleApp/src/components/Testable.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="3" count="2" type="stmt"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="3" type="stmt"/>
+          <line num="7" count="3" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+        </file>
+        <file name="TestableList.js" path="/Users/joshua/Personal/Projects/TestExampleApp/src/components/TestableList.js">
+          <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="1" count="1" type="stmt"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="14" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="19" count="4" type="stmt"/>
+          <line num="22" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

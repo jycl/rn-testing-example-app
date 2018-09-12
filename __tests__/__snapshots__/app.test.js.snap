@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App> Renders correctly with expected components 1`] = `
+Array [
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text>
+      Testing components using react-test-renderer
+    </Text>
+    <View>
+      <Text>
+        red
+         & 
+        blue
+      </Text>
+    </View>
+    <View>
+      <View
+        accessible={true}
+        isTVSelectable={true}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={null}
+      >
+        <Text
+          style={null}
+        >
+          1
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "name": "Joe",
+        },
+        Object {
+          "name": "Pete",
+        },
+        Object {
+          "name": "Mickey",
+        },
+        Object {
+          "name": "Mike",
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text>
+          1. Joe
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text>
+          2. Pete
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text>
+          3. Mickey
+        </Text>
+      </View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <Text>
+          4. Mike
+        </Text>
+      </View>
+    </View>
+  </RCTScrollView>,
+  <Text
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#F5FCFF",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    None yet.
+  </Text>,
+]
+`;

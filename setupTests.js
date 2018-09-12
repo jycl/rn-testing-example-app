@@ -1,0 +1,1 @@
+// import 'isomorphic-fetch'; //need to add if you are using Request/Response fetch related classes
