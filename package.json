@@ -10,8 +10,10 @@
     "test:coverage": "jest --coverage && open ./coverage/lcov-report/index.html"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "react": "16.4.1",
-    "react-native": "0.56.1"
+    "react-native": "0.56.1",
+    "react-native-code-push": "^5.4.2"
   },
   "devDependencies": {
     "@babel/core": "^7.0.1",

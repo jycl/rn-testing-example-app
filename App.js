@@ -13,6 +13,9 @@ import Testable from "./src/components/Testable";
 import Clickable from './src/components/Clickable';
 import TestableList from './src/components/TestableList';
 import {getUser} from "./src/services/github";
+import {getJokes} from "./src/services/jokes"
+import Joke from './src/components/Joke';
+import codePush from 'react-native-code-push';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -28,7 +31,7 @@ const sampleData = [
   {name: "Mike"},
 ];
 
-export default class App extends Component {
+class App extends Component {
   state = {githubUser: {}};
 
   componentDidMount() {
@@ -38,6 +41,7 @@ export default class App extends Component {
         githubUser:json
       })
     });
+    getJokes();
   }
 
   render() {
@@ -49,11 +53,16 @@ export default class App extends Component {
           <Clickable testID="button" />
         </View>
         <TestableList data={sampleData}/>
+        <Joke testID={"joke-id"} text={"haha"}/>
         <Text style={styles.container}>{this.state.githubUser.login || "None yet."}</Text>
       </Provider>
     );
   }
 }
+
+let codePushOptions = { checkFrequency: codePush.CheckFrequency.ON_APP_RESUME };
+
+export default codePush(App);
 
 const styles = StyleSheet.create({
   container: {
